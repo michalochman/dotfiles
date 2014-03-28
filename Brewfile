@@ -9,17 +9,18 @@ install bash
 install autoconf
 install automake
 install bash-completion
+tap tobli/browsertime
 install browsertime
 install chromedriver
 install cloc
 install cmake
-install composer
+install josegonzalez/php/php55
+install josegonzalez/php/composer
 install faac
 install ffmpeg
 install freetype
 install gd
 install gdbm
-install gems
 install gettext
 install git
 install gnuplot
@@ -48,7 +49,6 @@ install optipng
 install ossp-uuid
 install pcre
 install phantomjs
-install josegonzalez/homebrew-php/php55
 install pidof
 install pkg-config
 install pngcrush
@@ -61,7 +61,7 @@ install redis
 install rlwrap
 install sbcl
 install scons
-install sitespeed.io
+install sitespeedio/sitespeedio/sitespeed.io
 install sqlite
 install texi2html
 install unixodbc
