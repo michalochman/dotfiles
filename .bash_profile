@@ -2,7 +2,8 @@ export PATH=/usr/local/Cellar/python/2.7.5/bin:/usr/local/Cellar/gems/1.8/bin:/u
 export PATH="$(brew --prefix)/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/mysql/bin:$PATH"
-export PATH="$HOME/.git-extensions/bin:$PATH"
+export PATH="$HOME/Projects/.git-extensions/bin:$PATH"
+#export PATH="$(brew --prefix josegonzalez/php/php55)/bin:$PATH"
 
 #export DYLD_LIBRARY_PATH=/usr/local/mysql/lib/:$DYLD_LIBRARY_PATH
 # --- or sudo ln -s /usr/local/mysql/lib/libmysqlclient.18.dylib /usr/lib/libmysqlclient.18.dylib
