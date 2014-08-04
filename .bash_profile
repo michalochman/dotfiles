@@ -38,7 +38,7 @@ source ~/.bash_aliases
 
 # Parse repositories info
 parse_git_branch () {
-    git name-rev HEAD 2> /dev/null | sed 's#HEAD\ \(.*\)# (git::\1)#'
+    git rev-parse --abbrev-ref HEAD 2> /dev/null | sed 's#\(.*\)# (git::\1)#'
 }
 parse_svn_branch() {
     if [ $(parse_svn_path) ]; then
