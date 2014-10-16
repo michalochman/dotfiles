@@ -1,6 +1,6 @@
 [user]
 	name = Michał Ochman
-	email = michal.ochman@grandparade.co.uk
+	email = michoch@gmail.com
 [core]
 	excludesfile = /Users/michal/.gitignore_global
 [difftool "sourcetree"]
@@ -9,3 +9,14 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[push]
+	default = simple
+[alias]
+	st = status
+	ci = commit --verbose
+	amend = commit --amend
+	di = diff
+	co = checkout
+	b = branch
+	undo = reset --soft HEAD^1
+	
